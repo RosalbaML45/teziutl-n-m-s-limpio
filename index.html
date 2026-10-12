@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teziutlán más limpio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f1f8f2;
+            color: #24352a;
+            line-height: 1.6;
+        }
+
+        header {
+    background-image:
+        linear-gradient(rgba(10, 45, 25, 0.55),
+                        rgba(10, 45, 25, 0.55)),
+        url("teziutlan.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 65px 20px;
+}
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 35px;
+        }
+
+        nav {
+            background-color: #236b43;
+            padding: 14px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #c8f7a5;
+        }
+
+        .portada {
+            background: linear-gradient(135deg, #d9f2d9, #a8d9ae);
+            text-align: center;
+            padding: 55px 20px;
+        }
+
+        .portada h2 {
+            color: #174d32;
+            font-size: 30px;
+        }
+
+        .boton {
+            display: inline-block;
+            background-color: #174d32;
+            color: white;
+            padding: 12px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin: 25px 0;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px #00000012;
+        }
+
+        h2 {
+            color: #236b43;
+        }
+
+        .tarjetas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 18px;
+        }
+
+        .tarjeta {
+            background-color: #edf7ed;
+            padding: 18px;
+            border-left: 5px solid #39945a;
+            border-radius: 8px;
+        }
+
+        .frase {
+            text-align: center;
+            background-color: #236b43;
+            color: white;
+            padding: 30px;
+            font-size: 22px;
+            border-radius: 12px;
+        }
+
+        footer {
+            background-color: #174d32;
+            color: white;
+            text-align: center;
+            padding: 22px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 27px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1> Teziutlán más limpio</h1>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#problema">Problema</a>
+        <a href="#objetivos">Objetivos</a>
+        <a href="#propuesta">Propuesta</a>
+        <a href="#tecnologias">Tecnologías</a>
+        <a href="#ventajas y desventajas">Ventajas y desventajas</a>
+        <a href="#reflexion">Reflexión</a>
+        <a href="#fuentes">Fuentes</a>
+    </nav>
+
+    <div class="portada" id="inicio">
+        <h2>¡Un pequeño cambio puede hacer una gran diferencia!</h2>
+        <p>
+            Conoce este proyecto que busca promover la separación
+            responsable de residuos sólidos en Teziutlán, Puebla.
+        </p>
+        <a class="boton" href="#problema">Conoce el proyecto</a>
+    </div>
+
+    <main>
+
+        <section id="problema">
+            <h2> ¿Cuál es el problema?</h2>
+            <p>
+                La generación de residuos sólidos forma parte de nuestra vida
+                diaria. Sin embargo, cuando la basura no se separa correctamente,
+                se dificulta su aprovechamiento y puede contribuir a la
+                contaminación del suelo, el agua y el entorno.
+            </p>
+            <p>
+                En Teziutlán es importante fomentar hábitos responsables
+                para que las personas conozcan cómo separar sus residuos
+                y participen en el cuidado del medio ambiente.
+            </p>
+        </section>
+
+        <section id="objetivos">
+            <h2> Objetivos del proyecto</h2>
+
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <h3>Objetivo general</h3>
+                    <p>
+                        Promover durante cuatro semanas la separación
+                        responsable de residuos sólidos en Teziutlán,
+                        Puebla, mediante información y actividades de
+                        concientización ambiental.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Objetivo específico 1</h3>
+                    <p>
+                        Informar sobre la importancia de separar los residuos
+                        desde el lugar donde se generan.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Objetivo específico 2</h3>
+                    <p>
+                        Proponer acciones sencillas que ayuden a reducir
+                        la contaminación y fomentar la participación ciudadana.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="propuesta">
+            <h2> ¿Qué proponemos?</h2>
+            <p>
+                La propuesta consiste en desarrollar una campaña informativa
+                para promover mejores hábitos en el manejo de los residuos.
+            </p>
+
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <h3>1. Investigar</h3>
+                    <p>
+                        Consultar fuentes confiables sobre los residuos
+                        sólidos y su separación.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>2. Informar</h3>
+                    <p>
+                        Elaborar materiales digitales que expliquen
+                        la importancia del cuidado ambiental.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>3. Participar</h3>
+                    <p>
+                        Invitar a las personas a separar sus residuos
+                        y mantener limpios sus espacios.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="tecnologias">
+            <h2> Tecnología utilizada</h2>
+            <p>
+                Para organizar y presentar el proyecto se utilizan
+                herramientas digitales como hojas de cálculo, programas
+                de diseño (Canva) y HTML para desarrollar esta página web.
+            </p>
+        </section>
+
+                <section id="ventajas y desventajas">
+            <h2> Ventajas y desventajas </h2>
+
+            <div class="tarjetas">
+                <div class="tarjeta">
+                    <h3>Ventajas</h3>
+                    <ul>
+                        <li>Permite organizar y compartir información.</li>
+                        <li>Facilita presentar el proyecto de manera visual.</li>
+                    </ul>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Desventajas</h3>
+                    <ul>
+                        <li>Se necesita un dispositivo para consultar la página.</li>
+                        <li>Es necesario contar con conexión a internet para acceder
+                            a la versión publicada.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="reflexion">
+            <h2>Reflexión sobre el proyecto</h2>
+            <p>
+                Este proyecto permite reconocer que el cuidado del medio
+                ambiente requiere información, organización y participación.
+                Al desarrollarlo, puedo practicar la búsqueda de información,
+                la planeación de actividades y el uso de herramientas digitales.
+            </p>
+            <p>
+                También representa una oportunidad para aprender HTML y
+                comunicar una propuesta ambiental de manera clara. Un reto
+                es organizar la información y presentarla de forma sencilla.
+                Para mejorar el proyecto, es importante llevar acabo la campaña,
+                contemplando que tiene un margen de error, pero si las actividades
+                se llevan acabo como se planeraon es mas probable que todo salga bien
+                y logarar el objetivo.
+            </p>
+
+        </section>
+
+        <section id="fuentes">
+            <h2>Fuentes de consulta</h2>
+
+            <ul>
+                <li>
+                    <a href="https://www.gob.mx/semarnat" target="_blank"
+                       rel="noopener noreferrer">
+                        Secretaría de Medio Ambiente y Recursos Naturales (SEMARNAT)
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.diputados.gob.mx/LeyesBiblio/"
+                       target="_blank" rel="noopener noreferrer">
+                        Cámara de Diputados: legislación federal
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.eluniversalpuebla.com.mx/que-hacer/por-esta-razon-veracruz-cedio-el-pueblo-magico-de-teziutlan-a-puebla/"
+                    target="_blank" rel="noopener noreferrer">
+                    Rodríguez, E. (2024). Por esta razón, Veracruz cedió el Pueblo Mágico de Teziutlán a Puebla. El Universal Puebla.
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
+        <div class="frase">
+             ¡Separar nuestros residuos hoy ayuda a construir un mañana mejor!
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Proyecto: Teziutlán más limpio.</p>
+        <p>Teziutlán, Puebla | Cuidado del medio ambiente</p>
+    </footer>
+
+</body>
+</html>
+```
